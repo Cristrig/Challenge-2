@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 20px;
+  text-align: left;
+  background: black;
+  color: white;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #333;
+}
+.About img {
+  border-radius: 25%;
+  max-height: 150px;
+  max-width: 300px;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-style: bold;
+  font-weight: 100;
+  text-align: center;
+  text-indent: 10px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.About p {
+  text-indent: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 50;
+  padding: 10px;
+}
+.card {
+  max-height: 230px;
+  max-width: 200px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 60px 80px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: auto;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+  /* align-items: center; */
+}
+.card1 {
+  background-image: url(surfreport.jpeg);
+  max-width: 50px;
+  max-height: 560px;
+  padding: 100px 400px;
+}
+.card2 {
+  background-image: url(LEDwall.jpeg);
+}
+.card3 {
+  background-image: url(calc.png);
+}
+.card4 {
+  background-image: url(pastel.jpeg);
+}
+.card5 {
+  background-image: url(RUNBUD.jpeg);
+}
+.card:hover {
+  transform: translatey(-10px);
+}
+h5 {
+  color: black;
+  text-shadow: 0 0 5px #999;
+}
+.card p {
+  text-shadow: 0 0 15px;
+  font-size: 8px;
+  color: black;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+footer ul li {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  text-decoration: none;
+  font-size: 20px;
+}
